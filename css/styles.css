@@ -132,3 +132,37 @@ p {
     font-size: 3rem;
     line-height: 1.5;
 }
+
+/* projects section */
+
+#projects {
+    padding: 100px;
+    text-align: center;
+}
+
+.projects-column {
+    padding: 3% 2%;
+}
+
+.card-header {
+    font-size: 30px;
+    margin: 3px;
+}
+.card-body {
+    font-size: 20px;
+}
+
+/* media queries */
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 40%;
+    }
+}
