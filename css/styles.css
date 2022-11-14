@@ -166,3 +166,17 @@ p {
         width: 40%;
     }
 }
+
+/* footer */
+
+#footer {
+    background-color: #206A5D;
+    text-align: center;
+}
+
+.footer-bottom {
+    text-color: #fff;
+}
+.social-icons {
+    margin: 20px 10px;
+}
