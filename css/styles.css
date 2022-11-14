@@ -3,6 +3,30 @@ body {
     text-align: center;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: "raleway";
+}
+
+
+p {
+    color: #8f8f8f;
+}
+
+/* headings */
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
 /* Navigation Bar */
 
 .navbar {
@@ -11,7 +35,7 @@ body {
 
 .navbar-brand {
     padding: 0 0 4.5rem;
-    font-family: "ubuntu"; 
+    font-family: "raleway"; 
     font-size: 2.5rem;
     font-weight: bold;
 }
@@ -44,4 +68,27 @@ body {
     z-index: 0; 
     position: absolute;
     right: 30%;
+}
+
+/* about section */
+
+#about {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+
+}
+
+.about-box {
+    padding: 5%;
+
+}
+
+.about-title {
+    line-height: 1.5;
+}
+
+.icon-about {
+    padding-bottom: 5%;
 }
