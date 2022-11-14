@@ -2,3 +2,46 @@ body {
     font-family: "raleway";
     text-align: center;
 }
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    padding: 0 0 4.5rem;
+    font-family: "ubuntu"; 
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    font-size: 1.5rem;
+    padding:  0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "raleway";
+    font-weight: light;
+
+}
+
+/* title section  */
+#title {
+    background-color: #206A5D;
+    color: #fff;
+    text-align: left;
+
+}
+
+#title .container-fluid {
+    padding: 3% 7% 15%;
+}
+.title-image {
+    width: 15%;
+    z-index: 0; 
+    position: absolute;
+    right: 30%;
+}
