@@ -16,6 +16,7 @@ p {
 .big-heading {
     font-size: 3.5rem;
     line-height: 1.5;
+    font-weight: bold;
 }
 
 .section-heading {
@@ -64,10 +65,17 @@ p {
     padding: 3% 7% 15%;
 }
 .title-image {
+    width: 30%;
+    height: 50%;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 0;
+    right: 20%;
+    /* border-radius: 50%;
     width: 15%;
     z-index: 0; 
     position: absolute;
-    right: 30%;
+    right: 30%; */
 }
 
 /* about section */
@@ -161,9 +169,7 @@ p {
     }
 
     .title-image {
-        position: static;
-        transform: rotate(0);
-        width: 40%;
+        display: none;
     }
 }
 
@@ -174,9 +180,6 @@ p {
     text-align: center;
 }
 
-.footer-bottom {
-    text-color: #fff;
-}
 .social-icons {
     margin: 20px 10px;
 }
