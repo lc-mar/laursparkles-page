@@ -10,7 +10,6 @@ h4,
 h5,
 h6 {
   font-family: "raleway";
-  font-color: #fff;
 }
 
 p {
@@ -29,6 +28,10 @@ p {
 .fa-envelope {
     color: #fff;
 }
+.fa-linkedin {
+    color: #fff;
+}
+
 /* headings */
 .big-heading {
   font-size: 3.5rem;
