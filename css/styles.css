@@ -90,5 +90,45 @@ p {
 }
 
 .icon-about {
-    padding-bottom: 5%;
+    padding-bottom: 7%;
+    color: #206A5D;
+}
+
+.icon-about:hover {
+    color: #1C8875;
+}
+
+/* testimonials */
+
+#testimonials {
+    text-align: center;
+    background-color: #309e8a;
+    color: #fff;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #309e8a;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    height: 500px;
+    padding: 7% 15%;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
 }
