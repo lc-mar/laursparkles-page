@@ -90,10 +90,11 @@ p {
 .title-image {
   width: 30%;
   height: 50%;
+  margin-top: 5%;
   border-radius: 50%;
   position: absolute;
   z-index: 0;
-  right: 20%;
+  right: 17%;
 }
 
 /* about section */
@@ -136,17 +137,6 @@ p {
   margin: 20px;
 }
 
-#press {
-  background-color: #309e8a;
-  text-align: center;
-  padding-bottom: 3%;
-}
-
-.press-image {
-  width: 15%;
-  margin: 20px 20px 50px;
-}
-
 .carousel-item {
   height: 500px;
   padding: 7% 15%;
@@ -186,6 +176,7 @@ p {
   .title-image {
     display: none;
   }
+
 }
 
 /* footer */
